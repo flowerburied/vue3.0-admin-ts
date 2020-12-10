@@ -20,7 +20,7 @@
       </a-form>
       <div class="fs-12 text-center">
         <a href="" class="color-white">忘记密码 </a>|
-        <a href="" class="color-white">注册</a>
+        <router-link  to="/register">注册</router-link>
       </div>
     </div>
   </div>
@@ -45,5 +45,5 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
-@import "./style.scss";
+@import "./styles.scss";
 </style>
